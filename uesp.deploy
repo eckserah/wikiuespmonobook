@@ -1,0 +1,18 @@
+name = uesp.wikiuespmonobook
+description = MediaWiki skin based on MonoBook.
+repository = https://github.com/uesp/wikiuespmonobook.git
+backup = false
+verbosity = 0
+
+staged = true
+
+ignore = *.deploy
+ignore = .hg*
+ignore = .git*
+
+dest = content1.uesp.net:/home/uesp/www/w/skins/UespMonoBook/
+dest = content2.uesp.net:/home/uesp/www/w/skins/UespMonoBook/
+dest = content3.uesp.net:/home/uesp/www/w/skins/UespMonoBook/
+destname = [backup]backup1.uesp.net:/home/uesp/www/w/skins/UespMonoBook/
+destname = [dev]content3.uesp.net:/home/uesp/dev/www/w/skins/UespMonoBook/
+
