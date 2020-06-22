@@ -93,7 +93,7 @@ class UespMonoBookTemplate extends MonoBookTemplate
         if (true) {
 ?>
 		<div id='topad'><div class='center' id='uespTopBannerAd'>
-			<div id='cdm-zone-01'></div>
+			<div id='uesp_D_1'></div>
 		</div></div>
 <?php
         }
@@ -157,7 +157,7 @@ class UespMonoBookTemplate extends MonoBookTemplate
 		if (true) {
 			?>
 			<div>
-				<div id='cdm-zone-07'></div>
+				<div id='uesp_D_2'></div>
 			</div>
 		<?php
 		        }
