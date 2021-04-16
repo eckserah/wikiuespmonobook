@@ -285,8 +285,7 @@ table.rimage {
 	left: 0;
 	position: absolute; /*needed to use z-index */
 	z-index: 3;
-	height: 155px;
-	width: 12em;
+	width: 165px;
 	overflow: visible;
 }
 #p-logo h3 {
@@ -295,8 +294,7 @@ table.rimage {
 #p-logo a,
 #p-logo a:hover {
 	display: block;
-	height: 155px;
-	width: 12.2em;
+	width: 165px;
 	background-repeat: no-repeat;
 	background-position: 35% 50% !important;
 	text-decoration: none;
