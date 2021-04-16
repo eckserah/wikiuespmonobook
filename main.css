@@ -295,6 +295,7 @@ table.rimage {
 #p-logo a:hover {
 	display: block;
 	width: 165px;
+	height: 159px;
 	background-repeat: no-repeat;
 	background-position: 35% 50% !important;
 	text-decoration: none;

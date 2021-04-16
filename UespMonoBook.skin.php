@@ -80,10 +80,11 @@ class UespMonoBookTemplate extends MonoBookTemplate
 	 */
 	function execute() {
 		global $wgUser;
+		global $wgOut;
 		
 		// Suppress warnings to prevent notices about missing indexes in $this->data
 		wfSuppressWarnings();
-	
+		
 		$this->html( 'headelement' );
 		?><div id="globalWrapper">
 	<div id="column-content"><div id="content" class="mw-body-primary" role="main">
