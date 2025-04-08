@@ -1,4 +1,5 @@
 {
+	"manifest_version": 2,
 	"name": "UESP MonoBook",
 	"author": [
 		"[http://www.uesp.net/wiki/User:RobinHood70 RobinHood70]",
@@ -20,12 +21,15 @@
 	},
 	"ResourceModules": {
 		"skins.monobook.styles": {
-			"styles": {
-				"../MonoBook/main.css": {
-					"media": "screen"
-				}
-			}
-		},
+                        "styles": {
+                                "../MonoBook/resources/screen-common.less": {
+                                        "media": "screen"
+                                },
+                                "../MonoBook/resources/screen-desktop.less": {
+                                        "media": "screen"
+                                }
+                        }
+                },
 		"skins.uespmonobook": {
 			"styles": {
 				"main.css": {

@@ -57,7 +57,5 @@ class SkinUespMonoBook extends SkinTemplate {
 		// TODO: Migrate all of these
 		$out->addStyle( 'uespmonobook/IE60Fixes.css', 'screen', 'IE 6' );
 		$out->addStyle( 'uespmonobook/IE70Fixes.css', 'screen', 'IE 7' );
-
 	}
-
 }

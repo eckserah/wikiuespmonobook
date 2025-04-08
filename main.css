@@ -997,3 +997,7 @@ div#footer {
 	font-weight: normal;
 	font-size: 91%;
 }
+
+div#globalWrapper {
+	background-image: none;
+}
