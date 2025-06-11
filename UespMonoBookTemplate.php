@@ -194,8 +194,9 @@ class UespMonoBookTemplate extends MonoBookTemplate {
 			);
 			$contentText .= $options['list-prepend'];
 			$isindent = false;
+
 			foreach ( $content as $key => $item ) {
-				if (substr($item['text'],0,1)=='*') {
+				if (array_key_exists('text', $item) && substr($item['text'],0,1)=='*') {
 					if (!$isindent)
 						$contentText .= Html::openElement('ul');
 					$isindent = true;
